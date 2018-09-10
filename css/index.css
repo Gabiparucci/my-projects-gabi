@@ -1,0 +1,270 @@
+header{
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background: url(../8725.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+header div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h2{
+    margin: 20px 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+header p{
+    font-size: 30px;
+    color: #fff;
+}
+
+header img{
+    width: 300px;
+    height: 300px;
+}
+
+.background-primary{
+    background: #281D38;
+}
+
+nav{
+    padding: 10px 20% !important;
+}
+
+.active{
+    background: #B53A6B !important;
+}
+
+div.collapse.navbar-collapse{
+    justify-content: flex-end;
+}
+
+div.myprojects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20%;
+    height: 200px;
+    flex-direction: column;
+}
+
+div.myprojects h2,
+section.contact div.row h2,
+h5.modal-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+div.myprojects svg,
+section.contact div.row svg,
+div.modal-header svg{
+    height: 75px;
+    width: 100px;
+    fill: #2c3e50;
+}
+
+section.row,
+section.contact,
+section.contact form{
+    padding: 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+section.row div a img{
+    width: 380px;
+    height: 280px;
+}
+
+section.row div a div.backdrop{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: #B53A6B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+section.row div a div.backdrop svg{
+    width: 74px;
+    fill: #fff;
+}
+
+section.row div.work:hover div.backdrop{
+    opacity: 0.8;
+}
+
+section.row div.work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.row div.work a {
+    flex: 1;
+    position: relative;
+}
+
+section.about{
+    background: #2c3e50;
+    height: 400px;
+}
+
+section.about .row,
+section.contact div.row{
+        padding: 0 20%;
+        height: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+section.about .row h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+section.about .row svg{
+    height: 75px;
+    width: 100px;
+    fill: #fff;
+}
+
+section.about div.text-about{
+    padding: 0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.about div.text-about div.text-right p,
+section.about div.text-about div.text-left p{
+    color: #fff;
+    line-height: 35px;
+}
+
+
+section.about div.text-about div.text-right,
+section.about div.text-about div.text-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.contact,
+section.contact form{
+    flex-direction: column;
+}
+
+section.contact form input{
+    width: 500px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid #2c3e50;
+    outline: none;
+    height: 70px;
+}
+
+section.contact{
+    height: 700px;
+}
+
+button.btn{
+    background: #B53A6B;
+    color: #fff;
+    height: 40px;
+    margin: 25px 0;
+}
+
+section.section-footer{
+    padding: 0 20%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+section.section-footer div.location{
+    width: 350px;
+}
+
+section.section-footer div.networks{
+    flex: 1;
+}
+
+div.modal-body,
+div.modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.modal-body img {
+    width: 80%;
+}
+
+.section-footer {
+    height: 300px;
+    background: #2E3E52;
+    color: #FFF;
+}
+
+.section-footer .location p,
+.section-footer .location h2 {
+    text-align: center;
+}
+
+.section-footer .location h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.networks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.network-wrapper {
+    flex: 1;;
+}
+
+.networks .network {
+    float: left;
+    font-size: 34px;
+    width: 64px;
+}
+
+.networks .network i {
+    color: #FFF;
+}
+
+.image {
+    background: url(../me.jpg);
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
